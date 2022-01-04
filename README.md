@@ -37,19 +37,46 @@ Probably the most trivial metrics that can be measured involves lines of code, o
 We can count either the total number of LOC belonging to a developer currently in the project or count the LOC that have been
 changed by the developer.
 
-...
+While easy to do and might provide a superficial understanding of a developers productivity, this method should not be used in
+almost any scenario. It's widely understood that a good programmer will try to write concise and simple code that is easy to
+maintain. By introducing this metric, you would be encouraging overly verbose code. Additionally, such a metric doesn't actually
+provide much insight into how much work the developer might actually be doing. Boilerplate and trivial code can be excessive in
+some projects so it would be unfair to consider all LOC of equal value.
 
 ### Commits
 
-commit rate, size and consistency
+An extension of the above metrics is to instead measure the number of commits to a repository a user has made. This suffers from
+many of the issues discussed as well. A developer can choose to try boost their commit count by making many small commits when
+a single commit would suffice. However, this is actually a beneficial aspect to increase (Commit early, commit often) but is still
+an example of gamification which should be avoided.
 
-### Testing
-
-Passing test and test coverage
+Similarly, a single commit cannot be regarded to have the same value as another commit. As such, judging a developers performance
+on their rates of committing is not advisable. It could serve as a supplementary metric along with LOC in each of these commit.
 
 ### Issues
 
-issue acceptance and closure rate
+Another abstraction of the above metrics is to instead record issues. Metrics involving the number of problems with the code base raised
+and resolve is actually quite a good indication of productivity. Here, we can measure how often a developer finds and communicates an issue
+to the team, the rate they resolve issues at and the time taken to complete an issues.
+
+As with the previous metrics, these also suffer from treating every issue raised and resolve as the same. Issues can have widely different
+scopes and work to resolve so this metric would encourage developers to take on small and easy issues while avoiding larger projects.
+However, that being said, it may be possible to instead encourage larger issues to be split up into many smaller issues, which is a key
+tool in all engineering fields.
+
+### Testing
+
+One more example of metrics that may be measured is to do with code testing. Testing your code should be part of any project anyway but
+is it feasible to use this work as an indication of productivity? The most obvious value that can be measured is the number of tests
+the developer passes. This is clearly a very flawed metric to base productivity off of as whether a developers contribution passes
+tests does not have much bearing on if the contribution has much value. Additionally, test-driven development advises to write tests
+before writing an implementation. This approach would conflict with this metric.
+
+Another more reasonable metric to consider is test coverage. We can record how much of a developers code is being covered by their own
+tests. This actually does at least do a good job at encouraging useful contributions - Having higher test coverage is a step in the right
+direction. It is also a good indication that the code that is being tested is well-written and does what it's meant to.
+However, this metric does not consider the quality or effectiveness of these tests. Again, I would imagine this metric would be best used
+within a collection of other metrics as individually this does not provide a huge amount of value.
 
 ## Platforms For Data Processing
 
