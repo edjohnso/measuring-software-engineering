@@ -4,10 +4,10 @@
 
 ## Contents
 
-1. [Software Engineering Metrics](##Software Engineering Metrics)
-2. [Platforms For Data Processing](##Platforms For Data Processing)
-3. [Data Computation](##Data Computation)
-4. [Ethical and Moral Issues](##Ethical and Moral Issues)
+1. [Software Engineering Metrics](##Software-Engineering-Metrics)
+2. [Platforms For Data Processing](##Platforms-For-Data-Processing)
+3. [Data Computation](##Data-Computation)
+4. [Ethical and Moral Issues](##Ethical-and-Moral-Issues)
 
 ## Software Engineering Metrics
 
