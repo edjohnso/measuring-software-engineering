@@ -4,10 +4,10 @@
 
 ## Contents
 
-1. [Software Engineering Metrics](## Software Engineering Metrics)
-2. [Platforms For Data Processing](## Platforms For Data Processing)
-3. [Data Computation](## Data Computation)
-4. [Ethical and Moral Issues](## Ethical and Moral Issues)
+1. [Software Engineering Metrics](##Software Engineering Metrics)
+2. [Platforms For Data Processing](##Platforms For Data Processing)
+3. [Data Computation](##Data Computation)
+4. [Ethical and Moral Issues](##Ethical and Moral Issues)
 
 ## Software Engineering Metrics
 
@@ -23,7 +23,9 @@ can be actively improved by the developer. Finally, a metric should be related t
 an increase in revenue or improvement to a company's commercial product.
 
 Finally, we must also consider an important factor which always come up when discussing software engineering measurement:
+
 > You Get What You Measure
+
 This simple line might seem fairly innocuous but actually presents a major problem when trying to measure software engineering productivity.
 In fact, this issue arises when you attempt to measure productivity anywhere. When you begin to measure aspects of a developers workflow
 to determine their productivity, the developer may then go out of their way to artificially inflate this specific aspect in order to raise
