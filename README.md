@@ -63,7 +63,7 @@ TODO
 
 TODO
 
-## Ethical an Moral Issues
+## Ethical and Moral Issues
 
 TODO
 
