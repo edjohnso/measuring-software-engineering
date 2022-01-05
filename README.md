@@ -80,13 +80,45 @@ within a collection of other metrics as individually this does not provide a hug
 
 ## Platforms For Data Processing
 
-TODO
+Once we know what we want to measure, where do we get this data from and what hardware do we use to process it into useful information?
+This is particularly difficult to answer when the data being considered is generated from a large body of developers who may be spread across
+the globe. Large multination corporations or dealing with open-source projects could involve huge amounts of data which couldn't simply be
+handled by a single personal computer.
 
 ### GitHub API
 
-TODO
+One easy to access source of developer data is GitHub. They provide an API to access user data such as repositories, contribution history and
+collaboration between users. The shear number of publicly available user repositories provides an incredible amount of software engineering
+data. This data can be analysed to better understand developer behaviour and testing various approaches to measuring software engineering.
+Improving your understanding of developer behaviour is crucial when working with and planning for professional developers on your team.
+Intelligently balancing workload and assigning tasks to members of your development team can really help with overall productivity.
+
+### Distributed Computing
+
+When dealing with large volumes of data, one possible approach is to use distributed computing. As a vast majority of the tasks associated
+with processing software engineering metrics are unrelated, it is very effective to split up these tasks between multiple computers.
+This network of computers should scalable if more processing power is required. Additionally, by spreading this network across the globe,
+we can take advantage of locality of data to speed up access via the Internet. Finally, storing processed data provides redundancy in
+case of critical device failure or disconnection.
+
+### Cloud Computing
+
+A similar concept is cloud computing. Companies manage and rent their online services which provide hardware to perform various kinds of data analysis.
+This makes it easy for organisations to perform large data processing tasks without handling the associated hardware. Additionally, such services can
+prove to be cheaper alternatives than running your own as these companies take advantage of virtual server instances. Such a system allows many users to
+be allocated their own resources on huge, scalable machines.
 
 ## Data Computation
+
+With access to all this developer data and hardware to handle it, we now need to figure out how to process it into a presentable and easily digestible form.
+When simply examining the raw data without first processing it can be difficult to understand and compare, especially between many individuals.
+We can perform computation on this data with various techniques in order to generate overall pictures and pick out trends which may be useful.
+
+An obvious computation of some metrics is to simply tally the data entries up. It can be useful to count the total number of commits made by a developer or the how many
+repositories a user has contributed to in a specific programming language. Similarly, we can compute ratios between data points using basic division. Some examples
+include average number of lines per commit and issues resolved per day. Both of these methods convert easily to graphical representation which
+can prove vital in presenting understandable information. This can then also be extended to examine how these values change over time, which can be useful for identifying
+trends to correlate with past events and help predict future changes.
 
 TODO
 
