@@ -129,7 +129,23 @@ and may lead to misinformed decisions. Additionally, there is a worry that moder
 
 ## Ethical and Moral Issues
 
-TODO
+There has been a lot of outcries about privacy issues and personal data collection over the last decade, particularly in regards to social media corporations.
+Does the practise of gathering and processing of developer's activity and personal data go against ethical and moral standard?
+Here, there is no objective answer because the answer depends on your opinion and personal beliefs.
+
+In my opinion, such data collection is only acceptable if it is justifiable to the developers themselves.
+While I agree the gathering of such metrics will help in overall productivity through better resource allocation and planning, I would be against such a practise if the developers
+didn't see any advantage from the analyses of their own data. My reasoning is that personal data "belongs" to the person who made it and has some arbitrary value.
+If you want to take that data and use it to produce something of real value, then some form of trade must be negotiated with the owner.
+While it's not reasonable to expect every individual to actually value their own data, I believe everyone is entitled to at least some of the value extracted
+from the gathering of their personal data. In terms of software engineering, the collected data could be used to assist a developer with problems previously
+encountered by open-source developers (see GitHub Co-Pilot), identify weak areas of knowledge with recommendations of improvement and connect developers together
+who would benefit from mutual collaboration. Alternatively, developers could simply be rewarded monetarily.
+
+A practical solution is for collection and analyses of personal activity data to be an opt-in choice for developers with an explanation of how the data will
+be used to benefit the company. Developers should have the choice to access and remove this data at any time. Additionally, an option to appear anonymised in
+this data would be greatly appreciated so that general trends and patterns can be identified but no single individual can be held accountable for their activity.
+Finally, the security and privacy of this data is paramount and cannot be allowed to leak publicly.
 
 *Ted Johnson\
 TCD 19335618*
