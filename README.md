@@ -120,7 +120,12 @@ include average number of lines per commit and issues resolved per day. Both of 
 can prove vital in presenting understandable information. This can then also be extended to examine how these values change over time, which can be useful for identifying
 trends to correlate with past events and help predict future changes.
 
-TODO
+Another data computation technique used today is by utilising artificial intelligence, or AI, to find patterns in data. Such examples include machine learning algorithms which attempt
+to improve upon themselves with something akin to trial and error and expert systems which try to simulate the knowledge of a human who has expert experience in data.
+Both of these approaches are used widely today for a variety of uses. In the context of software engineering productivity, AI can be used to find relationships in data that would otherwise
+have been missed by a person. This pattern finding ability can be scaled to cover huge amounts of data. These relationships are extremely useful when trying to identify trends and
+factors which affect developer productivity. Unfortunately, AI also introduces complications with spurious correlation and false identification. Such errors can be hard to recognise
+and may lead to misinformed decisions. Additionally, there is a worry that modern research into artificial general intelligence poses a threat to human existence through technological singularity.
 
 ## Ethical and Moral Issues
 
